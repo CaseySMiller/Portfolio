@@ -75,16 +75,20 @@ main {
 
 .side-bar {
     display: flex;
+    position: relative;
     flex-direction: column;
-    justify-items: space-around;
-    align-content: space-around;
+    /* justify-items: space-around;
+    align-content: space-around; */
+    width: 65%;
+}
+
+.side-box {
     background-color: aquamarine;
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     margin: 10px;
-    width: 65%;
     font-size: 1.5rem;
     border-radius: 5px;
-    padding: 10px;
+    /* padding: 10px; */
 }
 
 .project {
@@ -143,7 +147,9 @@ main {
 
 /* responsive adjustments for narrow screens */
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 685px) {
+
+    /* header adjustments */
 
     .header {
         flex-direction: column;
@@ -164,5 +170,20 @@ main {
         font-size: 1.5rem;
         margin: 5px;
     }
+
+    /* main content adjustments */
+
+    main {
+        flex-direction: column;
+    }
+
+    .content {
+        width: 100%;
+    }
+
+    .side-bar {
+        width: 100%;
+    }
+
 
 }
