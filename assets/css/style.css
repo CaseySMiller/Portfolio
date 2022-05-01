@@ -6,11 +6,25 @@
 
 .header {
     display: flex;
+    align-items: flex-end;
     flex-direction: row;
     justify-content: space-between;
     background-color: rgb(59, 59, 252);
-    font-size: 3rem;
     padding: 10px;
+    margin: 10px;
+}
+
+.name-and-pic {
+    display: flex;
+    align-items: flex-end;
+    font-size: 3rem;
+    width: 490px;
+
+}
+
+.profile-pic {
+    width: 100px;
+    border-radius: 50%;
 }
 
 .navbar {
@@ -23,4 +37,38 @@
     color: white;
     font-size: 2.7rem;
     margin: 10px;
+}
+
+.content {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+}
+
+.intro  {
+    position: relative;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    padding: 10px;
+    font-size: 2rem;
+    width: 60%;
+    background-color: aqua;
+    margin: 10px; 
+}
+.skills  {
+    position: relative;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    padding: 10px;
+    font-size: 2rem;
+    width: 60%;
+    background-color: aqua;
+    margin: 10px; 
+}
+.other-stuff  {
+    position: relative;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    padding: 10px;
+    font-size: 2rem;
+    width: 60%;
+    background-color: aqua;
+    margin: 10px; 
 }
