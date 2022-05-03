@@ -68,12 +68,20 @@ main {
 
 .content-section  {
     position: relative;
-    font-family: var(--main-font);
     padding: 10px;
-    font-size: 2rem;
     background-color: aqua;
     margin: 10px; 
     border-radius: 5px;
+}
+
+.content-section h3 {
+    font-family: var(--main-font);
+    font-size: 2rem;
+}
+
+.content-section a {
+    font-family: var(--main-font);
+    font-size: 2rem;
 }
 
 .side-bar {
@@ -170,8 +178,21 @@ main {
     color: rgb(34, 22, 68);
 }
 
+#contact-info img {
+    background-color: white;
+    border-radius: 5px;
+}
+
 #project1 img {
     width: 100%;
+}
+
+#liLogo {
+    height: 2rem;
+}
+
+#gitLogo {
+    height: 2rem;
 }
 
 
